@@ -28,7 +28,7 @@ const squares = [
   { id: "square-01", label: "Rewrote our pitch" },
   { id: "square-02", label: "Celebrated a tiny win" },
   { id: "square-17", label: "Snacked more than 4 times per day" },
-  { id: "square-04", label: "Build a “Board” of AI Characters" },
+  { id: "square-04", label: "Built a “Board” of AI Characters" },
   { id: "square-19", label: "Used “pivot” unironically" },
   { id: "square-05", label: "Talked to users" },
   { id: "square-06", label: "Changed our plan" },
