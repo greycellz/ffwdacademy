@@ -1955,20 +1955,20 @@ footer p {
   }
 
   .board {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-    gap: 6px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
   }
 
   .tile {
     height: auto;
-    min-height: 0;
-    aspect-ratio: 1 / 1.15;
-    padding: 4px;
+    min-height: 104px;
+    aspect-ratio: 1.48;
+    padding: 8px;
     border-width: 2px;
     border-radius: 5px;
     box-shadow: 3px 3px 0 var(--arcade-ink);
-    font-size: 11px;
-    line-height: 1.15;
+    font-size: 13px;
+    line-height: 1.18;
   }
 
   .tile.selected,
@@ -1997,9 +1997,26 @@ footer p {
 
   .assignee {
     max-width: 100%;
-    padding: 2px 3px;
-    border-width: 1px;
-    font-size: 7px;
+    padding: 3px 6px;
+    border-width: 2px;
+    font-size: 9px;
+  }
+
+  .mobile-blank-tile {
+    display: grid !important;
+    min-height: 104px;
+    aspect-ratio: 1.48;
+    border: 2px dashed var(--arcade-ink);
+    border-radius: 5px;
+    color: var(--arcade-orange);
+    background: var(--arcade-yellow);
+    box-shadow: 3px 3px 0 var(--arcade-ink);
+    font-size: 28px;
+    place-items: center;
+  }
+
+  .mobile-blank-tile span {
+    transform: rotate(8deg);
   }
 
   .match-dialog {
